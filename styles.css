@@ -109,6 +109,7 @@ span{
 
 .home-img img{
     width: 35vw;
+    animation: floatImage 3s ease-in-out infinite;
 }
 
 .social-media a{
@@ -162,7 +163,8 @@ span{
 }
 
 .about-img img{
-    width: 35vw
+    width: 35vw;
+    animation: floatImage 3s ease-in-out infinite;
 }
 
 .heading{
@@ -392,4 +394,18 @@ span{
 .top-icon a i{
     font-size: 2rem;
     color: var(--second-bg-color);
+}
+
+
+
+@keyframes floatImage {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-2rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
