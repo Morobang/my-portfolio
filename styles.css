@@ -20,7 +20,7 @@
 
 html{
     font-size: 62.5%;
-    overflow: hidden;
+    /* overflow: hidden; */ /* Uncomment this line to hide the scrollbar */
 }
 
 body{
@@ -276,9 +276,9 @@ span{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.2); /* Light transparency */
-    backdrop-filter: blur(10px); /* Adds the blur effect */
-    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    background: rgba(0, 0, 0, 0.2); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -364,6 +364,9 @@ span{
     font-weight: bolder;
     cursor: pointer;
 }
+
+
+
 
 .footer{
     display: flex;
